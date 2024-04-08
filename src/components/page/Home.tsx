@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function HomePage() {
     return (
@@ -17,7 +18,7 @@ export default function HomePage() {
                     <div className="container grid gap-4 px-4 py-6 md:py-12 md:px-6">
                         <div className="grid gap-2">
                             <div className="text-center">
-                                <img
+                                <Image
                                     alt="Avatar"
                                     className="mx-auto aspect-square rounded-full overflow-hidden object-cover"
                                     height="160"
@@ -41,7 +42,7 @@ export default function HomePage() {
                     <div className="grid gap-4 md:grid-cols-2">
                         <Card>
                             <CardContent className="p-4">
-                                <img
+                                <Image
                                     alt="Project"
                                     className="aspect-video overflow-hidden rounded-lg object-cover"
                                     height="180"
@@ -56,7 +57,7 @@ export default function HomePage() {
                         </Card>
                         <Card>
                             <CardContent className="p-4">
-                                <img
+                                <Image
                                     alt="Project"
                                     className="aspect-video overflow-hidden rounded-lg object-cover"
                                     height="180"
@@ -71,7 +72,7 @@ export default function HomePage() {
                         </Card>
                         <Card>
                             <CardContent className="p-4">
-                                <img
+                                <Image
                                     alt="Project"
                                     className="aspect-video overflow-hidden rounded-lg object-cover"
                                     height="180"
@@ -86,7 +87,7 @@ export default function HomePage() {
                         </Card>
                         <Card>
                             <CardContent className="p-4">
-                                <img
+                                <Image
                                     alt="Project"
                                     className="aspect-video overflow-hidden rounded-lg object-cover"
                                     height="180"
@@ -107,31 +108,31 @@ export default function HomePage() {
                             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Skills</h2>
                             <div className="grid gap-4 md:grid-cols-2">
                                 <div className="flex items-center gap-4">
-                                    <CodeIcon className="h-6 w-6" />
+
                                     <div className="grid w-1/2">
                                         <div />
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4">
-                                    <TerminalIcon className="h-6 w-6" />
+
                                     <div className="grid w-1/2">
                                         <div />
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4">
-                                    <GlobeIcon className="h-6 w-6" />
+
                                     <div className="grid w-1/2">
                                         <div />
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4">
-                                    <DatabaseIcon className="h-6 w-6" />
+
                                     <div className="grid w-1/2">
                                         <div />
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4">
-                                    <LayoutIcon className="h-6 w-6" />
+
                                     <div className="grid w-1/2">
                                         <div />
                                     </div>
@@ -175,109 +176,3 @@ export default function HomePage() {
     )
 }
 
-function CodeIcon(props: any) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <polyline points="16 18 22 12 16 6" />
-            <polyline points="8 6 2 12 8 18" />
-        </svg>
-    )
-}
-
-
-function DatabaseIcon(props: any) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <ellipse cx="12" cy="5" rx="9" ry="3" />
-            <path d="M3 5V19A9 3 0 0 0 21 19V5" />
-            <path d="M3 12A9 3 0 0 0 21 12" />
-        </svg>
-    )
-}
-
-
-function GlobeIcon(props: any) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <circle cx="12" cy="12" r="10" />
-            <line x1="2" x2="22" y1="12" y2="12" />
-            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-        </svg>
-    )
-}
-
-
-function LayoutIcon(props: any) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
-            <line x1="3" x2="21" y1="9" y2="9" />
-            <line x1="9" x2="9" y1="21" y2="9" />
-        </svg>
-    )
-}
-
-
-function TerminalIcon(props: any) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <polyline points="4 17 10 11 4 5" />
-            <line x1="12" x2="20" y1="19" y2="19" />
-        </svg>
-    )
-}

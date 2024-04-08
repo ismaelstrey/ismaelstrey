@@ -27,8 +27,7 @@ export default function HomePage() {
                                 />
                                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Jane Smith</h1>
                                 <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                                    Hi, I'm Jane. I'm a passionate developer who loves creating web applications that make people's lives
-                                    easier.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nisi cupiditate mollitia repellendus quod deserunt inventore animi beatae officia quisquam, rerum reprehenderit corrupti praesentium laudantium, facere non, incidunt eveniet nulla.
                                 </p>
                             </div>
                         </div>
@@ -37,7 +36,7 @@ export default function HomePage() {
                 <div className="grid gap-4 p-4 md:grid-cols-2 md:gap-8 lg:p-12">
                     <div className="space-y-4">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Projects</h2>
-                        <p className="text-gray-500 dark:text-gray-400">Here are some of the projects I've been working on.</p>
+                        <p className="text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores doloribus quas ea, quo magnam ad iure quibusdam, facere et nobis veniam ex similique laborum iusto mollitia magni ratione maxime a!</p>
                     </div>
                     <div className="grid gap-4 md:grid-cols-2">
                         <Card>

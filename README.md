@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ismael Strey Pereira
 
-## Getting Started
+## 🚀 Sobre Mim
+Formado em Tecnologia da Informação em 2013, sou apaixonado por explorar o mundo da programação nos meus momentos livres. Meu trabalho como gerente em uma empresa de telecomunicações me permite aplicar essas habilidades em cenários do mundo real.
 
-First, run the development server:
+## 💻 Linguagens e Tecnologias
+- JavaScript: Minha primeira paixão e a linguagem que me introduziu ao mundo da programação.
+- Node.js: Adoro construir aplicativos escaláveis e eficientes com o Node.
+- TypeScript: A tipagem estática me conquistou, e agora é uma parte essencial do meu fluxo de trabalho.
+- PHP: Para projetos web robustos e dinâmicos.
+- CSS e HTML: Porque o front-end é onde a mágica acontece.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Projetos
+-- **speedtiketai**: Desnvolvendo uma solução para cração de ticket utilizando canbam.
+- **mulherescontabil**: O mais novo projeto que iniciei para minha esposa e a socia dela que preta serviços de contabilidade.
+- **speedtiket**: Mais uma aventura em JavaScript.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📚 Aprendizado Contínuo
+A programação é um universo em constante expansão, e estou sempre aprendendo algo novo. Se você também é um entusiasta da tecnologia, vamos nos conectar!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+!LinkedIn
+  <https://www.linkedin.com/in/ismaelstrey/>

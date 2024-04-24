@@ -7,10 +7,11 @@ import Footer from "./Footer";
 import Wrap from "./Wrap";
 import { useEffect, useState } from "react";
 import { getReadmeGit, infoUserGitHub } from "@/lib/apiGit";
+import { userTypes } from "@/@types/userTypes";
 
 export default function HomePage() {
-  const [usuario, setUsuario] = useState({});
-  const [readme, setReadme] = useState({});
+  const [usuario, setUsuario] = useState<userTypes | any>({});
+  const [readme, setReadme] = useState<string | any>('');
   useEffect(() => {
     infoUserGitHub().then((user) => setUsuario(user));
   }, []);

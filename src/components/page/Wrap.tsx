@@ -1,8 +1,9 @@
 import React, { JSXElementConstructor, ReactNode } from "react";
 interface Props {
-  props?: JSXElementConstructor<Props | ReactNode>;
+  props?: ReactNode;
+  children?: ReactNode;
 }
 
-export default function Wrap(props: Props) {
-  return <div {...props} className="flex-1" />;
+export default function Wrap({ children }: Props) {
+  return <div className="flex-1">{children}</div>
 }

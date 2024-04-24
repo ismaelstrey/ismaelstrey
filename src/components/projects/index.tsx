@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardContent, CardFooter } from "../ui/card";
 import Image from "next/image";
+import ReactMarkdown from 'react-markdown'
 interface Props {
   readme: string;
 }
@@ -9,10 +10,10 @@ export default function Projects({ readme }: Props) {
   return (
     <div className="grid gap-4 p-4 md:grid-cols-2 md:gap-8 lg:p-12">
       <div className="space-y-4">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+        <h2 className="text-3xl text-center font-bold tracking-tighter sm:text-4xl md:text-5xl">
           Meus Projetos
         </h2>
-        <p className="text-gray-500 dark:text-gray-400">{readme}</p>
+        <p className="text-gray-500 dark:text-gray-400"><ReactMarkdown>{readme}</ReactMarkdown></p>
       </div>
       <div className="grid gap-4 md:grid-cols-2">
         <Card>

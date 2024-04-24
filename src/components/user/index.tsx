@@ -14,7 +14,7 @@ export default function User({
   city,
 }: Props) {
   return (
-    <div className="bg-gray-100/30 dark:bg-gray-800/30">
+    <div className="bg-banner bg-cover dark:bg-gray-800/30">
       <div className="container grid gap-4 px-4 py-6 md:py-12 md:px-6">
         <div className="grid gap-2">
           <div className="text-center">
@@ -27,11 +27,11 @@ export default function User({
               blurDataURL="placeholder.svg"
               width="160"
             />
-            <h1 className=" flex flex-col text-3xl font-bold sm:text-5xl md:text-6xl">
+            <h1 className=" bg-gradient-to-b from-rose-500 to-blue-700 text-transparent bg-clip-text flex flex-col text-3xl font-bold sm:text-5xl md:text-6xl">
               {name}
               <span className="text-base">{city}</span>
             </h1>
-            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="mx-auto max-w-[600px] text-rose-800 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               {bio}
             </p>
           </div>

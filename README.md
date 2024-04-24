@@ -11,7 +11,7 @@ Formado em Tecnologia da Informação em 2013, sou apaixonado por explorar o mun
 - CSS e HTML: Porque o front-end é onde a mágica acontece.
 
 ## 🌐 Projetos
--- **speedtiketai**: Desnvolvendo uma solução para cração de ticket utilizando canbam.
+- **speedtiketai**: Desnvolvendo uma solução para cração de ticket utilizando canbam.
 - **mulherescontabil**: O mais novo projeto que iniciei para minha esposa e a socia dela que preta serviços de contabilidade.
 - **speedtiket**: Mais uma aventura em JavaScript.
 

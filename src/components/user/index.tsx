@@ -14,7 +14,7 @@ export default function User({
   city,
 }: Props) {
   return (
-    <div className="bg-banner bg-cover dark:bg-gray-800/30">
+    <div className="bg-banner bg-cover min-h-screen">
       <div className="container grid gap-4 px-4 py-6 md:py-12 md:px-6">
         <div className="grid gap-2">
           <div className="text-left">

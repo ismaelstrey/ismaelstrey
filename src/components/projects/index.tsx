@@ -8,8 +8,8 @@ interface Props {
 
 export default function Projects({ readme }: Props) {
   return (
-    <div className="bg-main bg-cover">
-      <div className="grid gap-4 p-4 md:grid-cols-2 md:gap-8 lg:p-12 bg-black/90">
+    <div className="min-h-screen bg-main bg-cover duration-500">
+      <div className="grid gap-4 p-4 md:grid-cols-2 md:gap-8 lg:p-12 bg-black/90  custon-animate">
         <div className="space-y-4">
           <h2 className="text-3xl text-center font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Meus Projetos

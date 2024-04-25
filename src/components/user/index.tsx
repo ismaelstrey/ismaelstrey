@@ -33,7 +33,7 @@ export default function User({
                 {city}
               </span>
             </h1>
-            <div className="bg-black/80 hover:bg-black p-4 rounded-lg max-w-[600px] border-2 border-solid border-red-500 transition-all duration-500 hover:shadow-red-600 shadow-xl hover:cursor-pointer animate-flip-down hover:rotate-2">
+            <div className="bg-black/80 hover:bg-black p-4 rounded-lg max-w-[600px] border-2 border-solid border-red-500 transition-all duration-500 hover:shadow-red-600 shadow-xl hover:cursor-pointer hover:rotate-6">
               <p className=" mt-2 bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 {bio}
               </p>

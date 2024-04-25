@@ -8,13 +8,13 @@ interface Props {
 
 export default function Projects({ readme }: Props) {
   return (
-    <div className="min-h-screen bg-main bg-cover duration-500">
-      <div className="grid gap-4 p-4 md:grid-cols-2 md:gap-8 lg:p-12 bg-black/90  custon-animate">
+    <div className="flex min-h-screen bg-main bg-cover duration-500 justify-center items-center">
+      <div className="grid w-screen gap-4 p-4 md:grid-cols-2 md:gap-8 lg:p-12 bg-black/90">
         <div className="space-y-4">
-          <h2 className="text-3xl text-center font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl text-white text-center font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Meus Projetos
           </h2>
-          <p className="text-gray-500 dark:text-gray-400">
+          <p className="text-lime-600 custon-animate ">
             <ReactMarkdown>{readme}</ReactMarkdown>
           </p>
         </div>

@@ -5,5 +5,5 @@ interface Props {
 }
 
 export default function Wrap({ children }: Props) {
-  return <div className="flex-1 top-0 left-0 ">{children}</div>;
+  return <div className="flex-1 scroll-smooth top-0 left-0 ">{children}</div>;
 }

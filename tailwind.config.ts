@@ -13,7 +13,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        banner: "url('/img/banner.jpg')",
+        banner: "url('/img/banner.png')",
         main: "url('/img/bg.jpg')",
         skils: "url('/img/skills.jpg')",
       },

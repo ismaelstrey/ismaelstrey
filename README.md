@@ -19,4 +19,7 @@ Formado em Tecnologia da Informação em 2013, sou apaixonado por explorar o mun
 A programação é um universo em constante expansão, e estou sempre aprendendo algo novo. Se você também é um entusiasta da tecnologia, vamos nos conectar!
 
 !LinkedIn
+![linkedin-1-svgrepo-com](https://github.com/ismaelstrey/ismaelstrey/assets/122389082/62a1f058-2460-44d4-b8b7-c7bb7dc13772)
+
   <https://www.linkedin.com/in/ismaelstrey/>
+    [https://www.linkedin.com/in/ismaelstrey/]

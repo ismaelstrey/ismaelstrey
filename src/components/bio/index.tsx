@@ -1,10 +1,17 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function Bio() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpansion = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <motion.div
-      className="flex justify-center items-center p-4 rounded-lg w-full bg-slate-900/60"
-      whileHover={{
+      className="flex justify-center items-center p-4 rounded-lg w-full bg-slate-900/60 cursor-pointer"
+      animate={isExpanded ? {
         position: "fixed",
         top: 0,
         left: 0,
@@ -14,7 +21,13 @@ export default function Bio() {
         margin: 0,
         padding: "2rem",
         backgroundColor: "rgba(15, 23, 42, 0.95)"
+      } : {
+        position: "relative",
+        zIndex: 1,
+        margin: "1rem",
+        padding: "1rem"
       }}
+      onClick={toggleExpansion}
       transition={{ duration: 0.5, ease: "easeInOut" }}
     >
       <motion.div 

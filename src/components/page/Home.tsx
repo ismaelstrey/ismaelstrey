@@ -8,6 +8,7 @@ import Wrap from "./Wrap";
 import { useEffect, useState } from "react";
 import { getReadmeGit, infoUserGitHub } from "@/lib/apiGit";
 import { userTypes } from "@/@types/userTypes";
+import Bio from "../bio";
 
 export default function HomePage() {
   const [usuario, setUsuario] = useState<userTypes | any>({});
@@ -20,7 +21,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div>
       <Wrap>
         {usuario && (
           <User
@@ -30,11 +31,9 @@ export default function HomePage() {
             bio={usuario.bio}
           />
         )}
-        <Projects readme={readme} />
-        <Skills />
-        <Contact />
+
       </Wrap>
-      <Footer />
+
     </div>
   );
 }

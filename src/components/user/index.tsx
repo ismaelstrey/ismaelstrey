@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import Bio from "../bio";
+import Footer from "../page/Footer";
 interface Props {
   image: string;
   name: string;
@@ -14,8 +16,8 @@ export default function User({
   city,
 }: Props) {
   return (
-    <div className="bg-banner bg-cover min-h-screen">
-      <div className="container grid gap-4 px-4 py-6 md:py-12 md:px-6">
+    <div className="flex w-full bg-banner bg-cover min-h-screen">
+      <div className="flex container gap-4 m-4 justify-between md:flex-col">
         <div className="grid gap-2">
           <div className="text-left">
             <Image
@@ -33,13 +35,24 @@ export default function User({
                 {city}
               </span>
             </h1>
-            <div className="bg-black/80 hover:bg-black p-4 rounded-lg max-w-[600px] border-2 border-solid border-red-500 transition-all duration-500 hover:shadow-red-600 shadow-xl hover:cursor-pointer hover:rotate-6">
-              <p className=" mt-2 bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                {bio}
-              </p>
-            </div>
+       <div className="flex gap-4 ">
+          <div className="bg-black/80 hover:bg-black p-4 max-h-48 rounded-lg max-w-[600px] border-2 border-solid border-red-500 transition-all duration-500 hover:shadow-red-600 shadow-xl hover:cursor-pointer hover:rotate-6">
+          <p className=" mt-2 bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          {bio}
+          </p>
+          </div>
+            
+       </div>
           </div>
         </div>
+       
+      </div>   
+      <Bio/>
+      <div className="flex flex-col">
+      <div className="flex flex-1 h-full">
+   
+      </div>
+        <Footer />
       </div>
     </div>
   );

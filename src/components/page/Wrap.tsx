@@ -1,9 +1,9 @@
-import React, { JSXElementConstructor, ReactNode } from "react";
+import React, {  ReactNode } from "react";
 interface Props {
   props?: ReactNode;
   children?: ReactNode;
 }
 
 export default function Wrap({ children }: Props) {
-  return <div className="flex-1 scroll-smooth top-0 left-0 ">{children}</div>;
+  return <div className="flex flex-col w-full scroll-smooth">{children}</div>;
 }

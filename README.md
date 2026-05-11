@@ -1,22 +1,68 @@
 # Ismael Strey Pereira
 
-## 🚀 Sobre Mim
-Formado em Tecnologia da Informação em 2013, sou apaixonado por explorar o mundo da programação nos meus momentos livres. Meu trabalho como gerente em uma empresa de telecomunicações me permite aplicar essas habilidades em cenários do mundo real.
+Portfólio pessoal moderno, vibrante e animado, criado para apresentar meus projetos, minha trajetória e minha página principal do GitHub:
 
-## 💻 Linguagens e Tecnologias
-- JavaScript: Minha primeira paixão e a linguagem que me introduziu ao mundo da programação.
-- Node.js: Adoro construir aplicativos escaláveis e eficientes com o Node.
-- TypeScript: A tipagem estática me conquistou, e agora é uma parte essencial do meu fluxo de trabalho.
-- PHP: Para projetos web robustos e dinâmicos.
-- CSS e HTML: Porque o front-end é onde a mágica acontece.
+[github.com/ismaelstrey](https://github.com/ismaelstrey)
 
-## 🌐 Projetos
-- **speedtiketai**: Desnvolvendo uma solução para cração de ticket utilizando canbam.
-- **mulherescontabil**: O mais novo projeto que iniciei para minha esposa e a socia dela que preta serviços de contabilidade.
-- **speedtiket**: Mais uma aventura em JavaScript.
+## Sobre Mim
 
-## 📚 Aprendizado Contínuo
-A programação é um universo em constante expansão, e estou sempre aprendendo algo novo. Se você também é um entusiasta da tecnologia, vamos nos conectar!
+Formado Tecnologia da Informação em 2013. Gosto de estudar programação nos meus tempos livres. Trabalho como Analista de redes em uma empresa do setor de Telecom. Transformo ideias em interfaces responsivas, sistemas úteis e produtos digitais com energia visual.
 
-!LinkedIn
-  <https://www.linkedin.com/in/ismaelstrey/>
+Gosto de construir projetos com visual marcante, boa usabilidade e código organizado, usando ferramentas modernas como Next.js, React, TypeScript, TailwindCSS e Framer Motion.
+
+## Objetivo Do Portfólio
+
+Este projeto foi planejado para ser mais do que uma página estática. A ideia é criar uma vitrine viva dos meus trabalhos, com:
+
+- Hero visual forte com dados vindos do GitHub.
+- Cards de projetos com descrição, stack e links.
+- Seção de tecnologias com visual limpo e animado.
+- Planejamento público dos próximos passos.
+- Contato rápido via GitHub e LinkedIn.
+- Cores vibrantes, gradientes, blur, transições e microinterações.
+
+## Projetos Em Destaque
+
+- **speedtiketai**: solução para criação e organização de tickets com fluxo estilo kanban.
+- **mulherescontabil**: site institucional para serviços de contabilidade.
+- **speedtiket**: sistema web em JavaScript para atendimento e registro de solicitações.
+- **Projetos comunitários**: ideias para viandas, diaristas e pequenos produtores rurais.
+
+## Tecnologias
+
+- Next.js
+- React
+- TypeScript
+- TailwindCSS
+- Framer Motion
+- Node.js
+- PHP
+- MySQL
+- Prisma
+
+## Planejamento Da Página
+
+1. Criar uma primeira tela impactante com avatar, bio e links principais.
+2. Transformar projetos em cards com narrativa de produto.
+3. Adicionar animações suaves de entrada, hover e scroll.
+4. Organizar tecnologias por área de domínio.
+5. Evoluir para filtros de projetos, detalhes individuais e métricas do GitHub.
+6. Melhorar imagens, thumbnails e identidade visual de cada projeto.
+
+## Como Rodar
+
+```bash
+npm install
+npm run dev
+```
+
+Depois acesse:
+
+```text
+http://localhost:3000
+```
+
+## Links
+
+- GitHub: [github.com/ismaelstrey](https://github.com/ismaelstrey)
+- LinkedIn: [linkedin.com/in/ismaelstrey](https://www.linkedin.com/in/ismaelstrey/)

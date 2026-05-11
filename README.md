@@ -1,68 +1,53 @@
 # Ismael Strey Pereira
 
-Portfólio pessoal moderno, vibrante e animado, criado para apresentar meus projetos, minha trajetória e minha página principal do GitHub:
+Desenvolvedor em evolução constante, Analista de redes no setor de Telecom e curioso por natureza. Gosto de transformar ideias em interfaces responsivas, sistemas úteis e produtos digitais com visual moderno, código organizado e propósito claro.
+
+Meu GitHub é meu laboratório público: aqui eu registro estudos, experimentos, projetos pessoais e soluções que nascem da prática, da curiosidade e da vontade de resolver problemas reais.
 
 [github.com/ismaelstrey](https://github.com/ismaelstrey)
 
 ## Sobre Mim
 
-Formado Tecnologia da Informação em 2013. Gosto de estudar programação nos meus tempos livres. Trabalho como Analista de redes em uma empresa do setor de Telecom. Transformo ideias em interfaces responsivas, sistemas úteis e produtos digitais com energia visual.
+Sou formado em Tecnologia da Informação desde 2013 e estudo programação nos meus tempos livres. Minha experiência com redes e telecom me ajuda a enxergar sistemas de forma prática: infraestrutura, disponibilidade, fluxo de informação, automação e experiência do usuário precisam conversar bem.
 
-Gosto de construir projetos com visual marcante, boa usabilidade e código organizado, usando ferramentas modernas como Next.js, React, TypeScript, TailwindCSS e Framer Motion.
+No desenvolvimento, gosto de criar aplicações web modernas, responsivas e visualmente marcantes. Tenho interesse especial por produtos simples de usar, micro SaaS, dashboards, ferramentas internas e soluções digitais para pequenos negócios e demandas do dia a dia.
 
-## Objetivo Do Portfólio
+## O Que Estou Construindo
 
-Este projeto foi planejado para ser mais do que uma página estática. A ideia é criar uma vitrine viva dos meus trabalhos, com:
+- Interfaces modernas com React, Next.js e TailwindCSS.
+- Sistemas web com TypeScript, Node.js e APIs.
+- Projetos com foco em produtividade, atendimento, tickets e gestão.
+- Experimentos visuais com animações, gradientes, blur e microinterações.
+- Soluções práticas conectando tecnologia, telecom e necessidades reais.
 
-- Hero visual forte com dados vindos do GitHub.
-- Cards de projetos com descrição, stack e links.
-- Seção de tecnologias com visual limpo e animado.
-- Planejamento público dos próximos passos.
-- Contato rápido via GitHub e LinkedIn.
-- Cores vibrantes, gradientes, blur, transições e microinterações.
+## Tecnologias E Ferramentas
+
+- **Front-end:** React, Next.js, TypeScript, JavaScript, HTML, CSS, TailwindCSS.
+- **Back-end:** Node.js, PHP, APIs REST, Prisma.
+- **Banco de dados:** MySQL.
+- **UI e movimento:** Framer Motion, Radix UI, shadcn/ui.
+- **Rotina técnica:** Git, GitHub, Vercel, redes, telecom e suporte a sistemas.
 
 ## Projetos Em Destaque
 
-- **speedtiketai**: solução para criação e organização de tickets com fluxo estilo kanban.
-- **mulherescontabil**: site institucional para serviços de contabilidade.
-- **speedtiket**: sistema web em JavaScript para atendimento e registro de solicitações.
-- **Projetos comunitários**: ideias para viandas, diaristas e pequenos produtores rurais.
+- **speedtiketai:** solução para criação e organização de tickets com fluxo estilo kanban.
+- **mulherescontabil:** site institucional para serviços de contabilidade.
+- **speedtiket:** sistema web em JavaScript para atendimento e registro de solicitações.
+- **Projetos comunitários:** ideias para viandas, diaristas e pequenos produtores rurais.
 
-## Tecnologias
+## Minha Direção
 
-- Next.js
-- React
-- TypeScript
-- TailwindCSS
-- Framer Motion
-- Node.js
-- PHP
-- MySQL
-- Prisma
+Quero evoluir como desenvolvedor criando projetos cada vez mais completos: bonitos por fora, bem pensados por dentro e úteis para quem realmente vai usar. Meu foco é unir criatividade visual, programação prática e visão de produto.
 
-## Planejamento Da Página
+Atualmente estou estudando e praticando mais:
 
-1. Criar uma primeira tela impactante com avatar, bio e links principais.
-2. Transformar projetos em cards com narrativa de produto.
-3. Adicionar animações suaves de entrada, hover e scroll.
-4. Organizar tecnologias por área de domínio.
-5. Evoluir para filtros de projetos, detalhes individuais e métricas do GitHub.
-6. Melhorar imagens, thumbnails e identidade visual de cada projeto.
+- Next.js e arquitetura de aplicações modernas.
+- TypeScript aplicado em projetos reais.
+- Componentização e design systems.
+- Automações e integrações com APIs.
+- Performance, acessibilidade e experiência mobile.
 
-## Como Rodar
-
-```bash
-npm install
-npm run dev
-```
-
-Depois acesse:
-
-```text
-http://localhost:3000
-```
-
-## Links
+## Contato
 
 - GitHub: [github.com/ismaelstrey](https://github.com/ismaelstrey)
 - LinkedIn: [linkedin.com/in/ismaelstrey](https://www.linkedin.com/in/ismaelstrey/)
